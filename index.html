@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password Generater website</title>
+    <link rel="stylesheet" href="passGenerater.css">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <div id="pass-box">Testing</div>
+            <div class="row">
+                <div class="left">
+                    password Length
+                </div>
+                <div class="right">
+                    <input type="number" name="" id="total-char" max="30" min="4" value="10">
+                </div>
+            </div>
+            <div class="row">
+                <label for="upper-case">
+                    <div class="left">
+                        contain uppercase
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" id="upper-case" >
+                </div>
+            </div>
+            <div class="row">
+                <label for="lower-case">
+                    <div class="left">
+                        contain lowercase
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" id="lower-case" >
+                </div>
+            </div>
+            <div class="row">
+                <label for="numbers">
+                    <div class="left">
+                        contain Numbers
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" id="numbers" >
+                </div>
+            </div>
+            <div class="row">
+                <label for="symbols">
+                    <div class="left">
+                        contain symbols
+                    </div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" id="symbols" >
+                </div>
+            </div>
+            <div class="row">
+                <button id="btn">
+                    Generate
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="passGenerater.js"></script>
+</body>
+</html>
